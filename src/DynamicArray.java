@@ -11,8 +11,6 @@ public class DynamicArray {
         items = new int[length];
     }
 
-
-
     //Method to dynamically insert an element at the end of the array
     public void insert(int item) {
         if(items.length == count) {
